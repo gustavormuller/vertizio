@@ -23,6 +23,9 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import trafego from "./trafego.png";
+import development from "./development.png";
+import socialmedia from "./socialmedia.png";
 
 export {
   airbnb,
@@ -50,4 +53,7 @@ export {
   people01,
   people02,
   people03,
+  trafego,
+  development,
+  socialmedia,
 };

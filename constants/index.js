@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../public";
 
 export const navLinks = [
   {
@@ -6,17 +6,13 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "servicos",
+    title: "Serviços",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+    id: "portfolio",
+    title: "Portfólio",
+  }
 ];
 
 export const features = [
@@ -47,26 +43,20 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "Criamos websites que não apenas impressionam visualmente, mas também contam a história única da sua marca, proporcionando uma experiência de usuário envolvente.",
+    title: "Websites Personalizados"
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "Aumente sua visibilidade online com estratégias de tráfego pago. Nossas campanhas são meticulosamente planejadas para atingir seu público-alvo e impulsionar conversões.",
+    title: "Tráfego Pago Estratégico"
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "Gestão de mídias sociais que vai além do básico. Construímos uma presença autêntica, interagindo com seu público e criando conexões significativas que fortalecem a lealdade à marca.",
+    title: "Gestão de Mídias Sociais",
   },
 ];
 

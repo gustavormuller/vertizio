@@ -1,12 +1,12 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
-import Business from "./Business";
+import Billing from "./Trafego";
+import CardDeal from "./Website";
+import Business from "./Services";
 import Clients from "./Clients";
 import CTA from "./CTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
+import Testimonials from "./Social";
 import Hero from "./Hero";
 
 export {
