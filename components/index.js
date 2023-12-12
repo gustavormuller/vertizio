@@ -3,7 +3,7 @@ import Billing from "./Trafego";
 import CardDeal from "./Website";
 import Business from "./Services";
 import Clients from "./Clients";
-import CTA from "./CTA";
+import CTA from "./Portfolio";
 import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Social";

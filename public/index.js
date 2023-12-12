@@ -26,6 +26,9 @@ import people03 from "./people03.png";
 import trafego from "./trafego.png";
 import development from "./development.png";
 import socialmedia from "./socialmedia.png";
+import centromedicodmproject from "./centromedicodmproject.webp";
+import dranicoleproject from "./dranicoleproject.webp";
+import pumppickerproject from "./pumppickerproject.webp";
 
 export {
   airbnb,
@@ -56,4 +59,7 @@ export {
   trafego,
   development,
   socialmedia,
+  centromedicodmproject,
+  dranicoleproject,
+  pumppickerproject,
 };

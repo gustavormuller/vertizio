@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../public";
+import { facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, centromedicodmproject, dranicoleproject, pumppickerproject  } from "../public";
 
 export const navLinks = [
   {
@@ -185,3 +185,21 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const portfolio = [
+  {
+    id: "project-1",
+    image: centromedicodmproject,
+    link: "https://centromedicodm.com.br/"
+  },
+  {
+    id: "project-2",
+    image: dranicoleproject,
+    link: "https://dranicolekuster.com.br/"
+  },
+  {
+    id: "project-3",
+    image: pumppickerproject,
+    link: "https://pumppicker.netlify.app/"
+  },
+]
