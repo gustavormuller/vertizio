@@ -24,7 +24,7 @@ const Hero = () => (
     <div>
       <Image src={robot} alt="Desenvolvimento de sites" className='relative z-[5]' width={`100%`} height={`100%`}/>
 
-      <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient' />
+      <div className='absolute z-[0] w-[40%] h-[35%] top-0 right-[5%] pink__gradient' />
 
       
     </div>

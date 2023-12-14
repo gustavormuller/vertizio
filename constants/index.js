@@ -189,17 +189,20 @@ export const clients = [
 export const portfolio = [
   {
     id: "project-1",
+    title: "Centro Médico Domingos Martins",
     image: centromedicodmproject,
     link: "https://centromedicodm.com.br/"
   },
   {
     id: "project-2",
+    title: "Dra. Nicole Kuster",
     image: dranicoleproject,
     link: "https://dranicolekuster.com.br/"
   },
   {
     id: "project-3",
     image: pumppickerproject,
+    title: "Pump Picker",
     link: "https://pumppicker.netlify.app/"
   },
 ]
