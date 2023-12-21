@@ -1,5 +1,13 @@
-import { Navbar, Hero, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from "@/components";
 import './globals.css';
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import Portfolio from "@/components/Portfolio";
+import Services from "@/components/Services";
+import Website from "@/components/Website";
+import Trafego from "@/components/Trafego";
+import Social from "@/components/Social";
+import Footer from '@/components/Footer';
+import Contato from '@/components/Contato';
 
 export const metadata = {
   title: 'Vertizio',
@@ -25,12 +33,12 @@ export default function RootLayout({ children }) {
 
           <div className={`bg-primary sm:px-16 px-4 flex justify-center items-start`}>
             <div className={`xl:max-w-[1280px] w-full`}>
-              <Business />
-              <CardDeal />
-              <Billing />         
-              <Testimonials />
-              <Clients />
-              <CTA />
+              <Services />
+              <Website />
+              <Trafego />         
+              <Social />
+              <Portfolio />
+              <Contato />
               <Footer />
             </div>
           </div>

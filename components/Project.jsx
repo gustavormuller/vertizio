@@ -8,8 +8,11 @@ const Project = ({ image, link, title }) => {
         <Image src={image} width={`100%`} height={`100%`} className='rounded-[11px]' />
       </Link>
       <h3 className="font-poppins font-[500] text-[26px] text-white w-full mt-1">
-          {title}
+        {title}
       </h3>
+      <Link href={link} target='_blank'>
+        <h4 className="font-poppins text-[18px] text-dimWhite  w-full">(Clique para acessar)</h4>
+      </Link>
     </div>
   )
 }
