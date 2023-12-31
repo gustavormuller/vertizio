@@ -10,6 +10,7 @@ import centromedicodmproject from "./centromedicodmproject.webp";
 import dranicoleproject from "./dranicoleproject.webp";
 import pumppickerproject from "./pumppickerproject.webp";
 import arrowDown from "./arrowDown.png";
+import logoV from "./logoV.png";
 
 export {
   logo,
@@ -23,5 +24,6 @@ export {
   centromedicodmproject,
   dranicoleproject,
   pumppickerproject,
-  arrowDown
+  arrowDown,
+  logoV
 };

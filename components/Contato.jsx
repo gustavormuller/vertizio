@@ -19,7 +19,6 @@ const Contato = () => {
                             <div className={`flex justify-center items-start flex-row`}>
                                 <p className="flex font-poppins font-medium text-[18px] leading-[23px]">
                                     <span className="text-gradient text-[20px]">Vamos conversar</span>
-
                                 </p>
                             </div>
                         </div>
