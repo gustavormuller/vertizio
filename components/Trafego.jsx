@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Trafego = () => {
   return (
-    <section id="product" className="flex md:flex-row flex-col-reverse sm:py-20 py-6">
+    <section id="product" className="flex md:flex-row flex-col sm:py-20 py-6">
       <div className="flex-1 flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative">
         <Image src={trafego} alt="Tráfego Pago" width={`100%`} height={`100%`} className="relative z-[5]" />
       </div>
