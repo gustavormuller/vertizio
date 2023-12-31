@@ -35,14 +35,13 @@ export default function RootLayout({ children }) {
             <div className={`xl:max-w-[1280px] w-full`}>
               <Services />
               <Website />
-              <Trafego />         
+              <Trafego />
               <Social />
               <Portfolio />
               <Contato />
-              <Footer />
             </div>
           </div>
-
+          <Footer />
         </div>
       </body>
     </html>
