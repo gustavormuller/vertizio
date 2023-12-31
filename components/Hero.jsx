@@ -3,7 +3,7 @@ import GetStarted from './GetStarted';
 import Image from 'next/image';
 
 const Hero = () => (
-  <section id='home' className={`flex md:flex-row flex-col sm:py-44 py-6`}>
+  <section id='home' className={`flex md:flex-row flex-col sm:py-36 py-6`}>
     <div className={`flex-1 flex justify-center items-start flex-col x1:px-0 sm:px-6 px-6`}>
       <div className='flex flex-row justify-between items-center w-full'>
         <h1 className='flex-1 font-poppins font-semibold ss:text-[56px] text-[30px] text-white ss:leading-[80px] leading-[40px]'>
@@ -24,7 +24,7 @@ const Hero = () => (
     <div>
       <Image src={robot} alt="Desenvolvimento de sites" className='relative z-[5]' width={`100%`} height={`100%`}/>
 
-      <div className='absolute z-[0] w-[40%] h-[35%] top-0 right-[5%] pink__gradient' />
+      {/* <div className='absolute z-0 w-[40%] h-[35%] top-0 right-[5%] pink__gradient' /> */}
 
       
     </div>

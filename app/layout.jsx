@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="pt-BR">
       <body>
         <div className="bg-primary w-full overflow-hidden">
-          <div className={`sm:px-16 px-4 flex justify-center items-center`}>
+          <div className={`sm:px-16 px-4 flex justify-center items-center z-100`}>
             <div className={`xl:max-w-[1280px] w-full`}>
               <Navbar />
             </div>

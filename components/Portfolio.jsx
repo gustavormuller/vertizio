@@ -3,7 +3,7 @@ import Project from "./Project";
 
 const Portfolio = () => {
   return (
-    <section id='servicos' className={`sm:py-16 py-6 flex justify-center items-center flex-col relative`}>
+    <section id='portfolio' className={`sm:py-16 py-6 flex justify-center items-center flex-col relative`}>
       <div className="w-full flex justify-between items-center flex-col sm:mb-12 mb-6 relative z-[1]">
         <h2 className="font-poppins font-semibold xs:text-[48px] text-[26px] text-white xs:leading-[50px] leading-[40px] w-full">
           Portfólio

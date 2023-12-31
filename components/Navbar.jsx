@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { close, logo, menu } from '../public';
 import { navLinks } from '../constants';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -16,11 +17,11 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white`}
+            className={`font-poppins font-normal cursor-pointer text-[20px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white hover:text-[#7d2cbf] transition ease-in-out duration-300`}
           >
-            <a href={`#${nav.id}`}>
+            <Link href={`#${nav.id}`}>
               {nav.title}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
@@ -43,11 +44,11 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white`}
+                className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white hover:text-[#7d2cbf] transition ease-in-out duration-300`}
               >
-                <a href={`#${nav.id}`}>
+                <Link href={`#${nav.id}`}>
                   {nav.title}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
